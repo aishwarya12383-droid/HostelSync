@@ -23,8 +23,6 @@ app.get("/", (req, res) => {
 
             __dirname,
 
-            "..",
-
             "login.html"
 
         )
