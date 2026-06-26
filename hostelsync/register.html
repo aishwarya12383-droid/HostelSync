@@ -13,7 +13,6 @@ content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet"
 href="css/register.css">
 
-
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -57,6 +56,7 @@ Made Simple
 
 
 
+
 <div class="right">
 
 
@@ -73,7 +73,7 @@ Student Registration
 
 
 
-<form>
+<form id="registerForm">
 
 
 
@@ -81,8 +81,10 @@ Student Registration
 
 <input
 type="text"
+id="name"
 placeholder="Enter Full Name"
 required>
+
 
 
 
@@ -90,8 +92,10 @@ required>
 
 <input
 type="email"
+id="email"
 placeholder="Enter College Email"
 required>
+
 
 
 
@@ -99,14 +103,16 @@ required>
 
 <input
 type="tel"
+id="phone"
 placeholder="Enter Phone Number"
 required>
 
 
 
+
 <label>Department</label>
 
-<select>
+<select id="department">
 
 <option>ECE</option>
 
@@ -122,9 +128,10 @@ required>
 
 
 
+
 <label>Year</label>
 
-<select>
+<select id="year">
 
 <option>I Year</option>
 
@@ -139,12 +146,15 @@ required>
 
 
 
+
 <label>Password</label>
 
 <input
 type="password"
+id="password"
 placeholder="Password"
 required>
+
 
 
 
@@ -153,17 +163,21 @@ required>
 
 <input
 type="password"
+id="confirmPassword"
 placeholder="Confirm Password"
 required>
 
 
 
 
-<button>
+
+<button
+type="submit">
 
 Register
 
 </button>
+
 
 
 
@@ -199,7 +213,6 @@ Login
 
 
 <script src="js/register.js"></script>
-
 
 </body>
 

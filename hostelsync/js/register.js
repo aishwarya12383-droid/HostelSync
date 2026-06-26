@@ -1,35 +1,35 @@
-const form = document.querySelector("form");
+const form = document.getElementById("registerForm");
+
 
 form.addEventListener("submit", async (e) => {
 
 e.preventDefault();
 
 
-const inputs = document.querySelectorAll("input");
-const selects = document.querySelectorAll("select");
-
-
 const user = {
 
-name: inputs[0].value,
+name: document.getElementById("name").value,
 
-email: inputs[1].value,
+email: document.getElementById("email").value,
 
-phone: inputs[2].value,
+phone: document.getElementById("phone").value,
 
-department: selects[0].value,
+department: document.getElementById("department").value,
 
-year: selects[1].value,
+year: document.getElementById("year").value,
 
-password: inputs[3].value
+password: document.getElementById("password").value
 
 };
 
 
 
+try{
+
+
 const response = await fetch(
 
-"http://localhost:5000/register",
+"/register",
 
 {
 
@@ -52,10 +52,37 @@ body:JSON.stringify(user)
 const data = await response.json();
 
 
-alert(data.message);
+
+if(data.success){
+
+alert("Registration Successful 🎉");
 
 
 window.location.href="login.html";
+
+}
+
+
+else{
+
+alert(data.message);
+
+}
+
+
+}
+
+
+catch(error){
+
+
+console.log(error);
+
+
+alert("Server Error");
+
+
+}
 
 
 });
