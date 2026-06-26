@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>HostelSync | Complaints</title>
+
+<link rel="stylesheet" href="css/complaint.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+
+<h1>📩 Complaints Management</h1>
+
+<p>Raise complaints and track their status</p>
+
+</div>
+
+
+
+<div class="complaint-form">
+
+<h2>Raise Complaint</h2>
+
+<input type="text"
+placeholder="Complaint Title">
+
+
+
+<select>
+
+<option>Select Category</option>
+
+<option>WiFi Issue</option>
+
+<option>Food Issue</option>
+
+<option>Electrical Problem</option>
+
+<option>Water Leakage</option>
+
+<option>Room Maintenance</option>
+
+<option>Others</option>
+
+</select>
+
+
+
+<select>
+
+<option>Select Priority</option>
+
+<option>High</option>
+
+<option>Medium</option>
+
+<option>Low</option>
+
+</select>
+
+
+
+<textarea
+placeholder="Describe your complaint...">
+</textarea>
+
+
+
+<button onclick="submitComplaint()">
+
+Submit Complaint
+
+</button>
+</div>
+
+
+
+
+
+<div class="history">
+
+
+<h2>Complaint History</h2>
+
+
+
+<div class="complaint-card">
+
+<h3>WiFi Not Working</h3>
+
+<p>Hostel Block A - Room 204</p>
+
+<span class="pending">
+
+Pending
+
+</span>
+
+</div>
+
+
+
+
+
+<div class="complaint-card">
+
+<h3>Fan Repair</h3>
+
+<p>Electrical Issue</p>
+
+<span class="progress">
+
+In Progress
+
+</span>
+
+</div>
+
+
+
+
+<div class="complaint-card">
+
+<h3>Food Quality</h3>
+
+<p>Mess Complaint</p>
+
+<span class="resolved">
+
+Resolved
+
+</span>
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+<script src="js/complaint.js"></script>
+
+</body>
+
+</html>

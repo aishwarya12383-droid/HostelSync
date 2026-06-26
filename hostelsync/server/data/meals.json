@@ -1,0 +1,50 @@
+[
+  {
+    "student": "Aishwarya",
+    "meal": "Breakfast",
+    "date": "6/26/2026",
+    "status": "Booked"
+  },
+  {
+    "student": "Aishwarya",
+    "meal": "Breakfast",
+    "date": "6/26/2026",
+    "status": "Booked"
+  },
+  {
+    "student": "Aishwarya",
+    "meal": "Dinner",
+    "date": "6/26/2026",
+    "status": "Booked"
+  },
+  {
+    "student": "Aishwarya",
+    "meal": "Breakfast",
+    "date": "6/26/2026",
+    "status": "Booked"
+  },
+  {
+    "student": "Aishwarya",
+    "meal": "Breakfast",
+    "date": "6/26/2026",
+    "status": "Booked"
+  },
+  {
+    "student": "Aishwarya",
+    "meal": "Breakfast",
+    "date": "6/26/2026",
+    "status": "Booked"
+  },
+  {
+    "student": "Aishwarya",
+    "meal": "Dinner",
+    "date": "6/26/2026",
+    "status": "Booked"
+  },
+  {
+    "student": "Aishwarya",
+    "meal": "All",
+    "date": "6/26/2026",
+    "status": "Skipped"
+  }
+]

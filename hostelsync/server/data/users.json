@@ -1,0 +1,26 @@
+[
+  {
+    "name": "aishwarya ",
+    "email": "aishu@gmail.com",
+    "phone": "9043115861",
+    "department": "ECE",
+    "year": "I Year",
+    "password": "mypassword"
+  },
+  {
+    "name": "vikas",
+    "email": "vikas@gmail.com",
+    "phone": "904347587489",
+    "department": "ECE",
+    "year": "I Year",
+    "password": "mypassword"
+  },
+  {
+    "name": "vikas",
+    "email": "vikas@gmail.com",
+    "phone": "9043113568598",
+    "department": "ECE",
+    "year": "I Year",
+    "password": "mypassword"
+  }
+]
